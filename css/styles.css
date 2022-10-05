@@ -183,12 +183,20 @@ body {
     line-height: 1.71;
     letter-spacing: 0.03em;
 }
-.footer-nav .link:hover,
-.footer-nav .link:focus {
+.footer-nav .link-accent {
+    color: var(--additional-text-color-footer);
+    text-decoration: none;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+.footer-nav :hover,
+.footer-nav :focus {
     color: var(--accent-text-color);
 }
-
-
 
 /* Наші проекти */
 
